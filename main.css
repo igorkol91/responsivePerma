@@ -29,7 +29,7 @@ header {
   background-color: #fff;
 }
 
-.header-upper-side {
+#header-upper-side {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -39,17 +39,21 @@ header {
   display: none;
 }
 
-.header-upper-side ul {
+#header-upper-side ul {
   display: flex;
   align-items: center;
 }
 
-.header-upper-side ul li {
+#header-upper-side ul li {
   list-style: none;
   margin: 0 10px;
 }
 
-.header-upper-side ul li a {
+#header-upper-side ul li .first {
+  color: #fff;
+}
+
+#header-upper-side ul li a {
   text-decoration: none;
   font-size: 14px;
   font-weight: 300;
@@ -59,7 +63,7 @@ header {
   color: rgb(170, 166, 166);
 }
 
-.header-upper-side ul li a svg {
+#header-upper-side ul li a svg {
   width: 20px;
   margin-top: 4px;
 }
@@ -195,11 +199,25 @@ header {
   width: 100%;
   height: 50px;
   background-color: yellow;
-  font-size: 13px;
+}
+
+.yellow-header p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  /* white-space: nowrap; */
+  text-align: center;
+}
+
+.yellow-header svg {
+  width: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 main {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .articles-grid {
@@ -208,6 +226,15 @@ main {
   width: 100%;
   padding: 0 10px;
   margin-bottom: 100px;
+}
+
+.article-main-logo {
+  position: absolute;
+  top: 20px;
+}
+
+.article-main-logo img {
+  width: 130%;
 }
 
 .article-div {
@@ -264,6 +291,36 @@ main {
   margin-bottom: 15px;
   display: block;
   font-weight: 200;
+  /* display: none; */
+}
+
+.article-timing {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+}
+
+.article-author {
+  margin-bottom: 10px;
+}
+
+.article-author p {
+  display: flex;
+  font-size: 13px;
+  color: rgb(187, 183, 183);
+  align-items: center;
+  text-align: center;
+}
+
+.article-author p .author {
+  text-decoration: none;
+  display: inline;
+}
+
+.article-author svg {
+  width: 16px;
+  margin: 0 5px;
 }
 
 .latest-funding div a {
@@ -515,6 +572,7 @@ main {
   .header-menu li a {
     font-weight: 500;
     color: rgba(0, 0, 0, 0.479);
+    cursor: pointer;
   }
 
   .header-menu li a:hover {
@@ -528,7 +586,7 @@ main {
 
   .articles-grid {
     display: grid;
-    grid-template-columns: 64% 33%;
+    grid-template-columns: 64% 34.5%;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 1em;
   }
@@ -596,7 +654,26 @@ main {
   .article-div:nth-child(3) h2 {
     font-size: 18px;
   }
-  .header-upper-side {
+  #header-upper-side {
     display: flex;
+  }
+  main {
+    padding-top: 150px;
+  }
+
+  .article-div:first-child {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 67, 34, 0.781) 20%,
+      rgba(0, 0, 0, 0.932) 80%
+    );
+  }
+
+  .article-div:first-child:hover {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 67, 34, 0.363) 20%,
+      rgba(0, 0, 0, 0.932) 80%
+    );
   }
 }
