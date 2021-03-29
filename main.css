@@ -1,12 +1,18 @@
+/* Initialisation  */
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* stylelint-disable */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* stylelint-enable */
 }
+
+/* variables for the styling  */
 
 #root {
   --transition: all 0.4s ease;
@@ -16,6 +22,8 @@
 ul {
   padding: 0;
 }
+
+/* header style  */
 
 header {
   width: 100%;
@@ -28,6 +36,8 @@ header {
   z-index: 999;
   background-color: #fff;
 }
+
+/* header style first part  */
 
 #header-upper-side {
   display: flex;
@@ -91,7 +101,8 @@ header {
   align-items: center;
   justify-content: center;
 }
-/* .left-img:hover  */
+
+/* header links style  */
 
 .left-links a {
   z-index: 99;
@@ -126,24 +137,19 @@ header {
   background-color: #000;
   width: 120px;
 }
+
+/* header logo style  */
+
 .left-links:hover .logo-container {
   background-image: url("https://media.giphy.com/media/l46C8Nl1uHLkppB3G/source.gif");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .left-links:hover {
   transition: all 0.5s ease-in;
   /* flex-direction: column; */
-}
-
-.left-links:hover .sublinks {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 50px;
-  background-color: #000;
-  width: 120px;
 }
 
 .left-links .sublinks {
@@ -155,6 +161,15 @@ header {
   width: 120px;
   background-color: #000;
   /* z-index: 99; */
+}
+
+.left-links:hover .sublinks {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  background-color: #000;
+  width: 120px;
 }
 
 .left-links .sublinks ul {
@@ -192,6 +207,8 @@ header {
   width: 25px;
 }
 
+/* header yellow container styles */
+
 .yellow-header {
   display: flex;
   align-items: center;
@@ -216,11 +233,15 @@ header {
   margin-right: 10px;
 }
 
+/* main styling fo the page  */
+
 main {
   padding-top: 120px;
 }
 
-.articles-grid {
+/* articles section style  */
+
+#articles-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   width: 100%;
@@ -236,6 +257,8 @@ main {
 .article-main-logo img {
   width: 130%;
 }
+
+/* single article style  */
 
 .article-div {
   display: flex;
@@ -323,7 +346,9 @@ main {
   margin: 0 5px;
 }
 
-.latest-funding div a {
+/* funding section styles  */
+
+#latest-funding div a {
   display: block;
 }
 
@@ -402,6 +427,8 @@ main {
   color: rgba(0, 0, 0, 0.623);
   font-size: 14px;
 }
+
+/* footer main style  */
 
 #footer-main-container {
   display: flex;
@@ -533,7 +560,7 @@ main {
   font-weight: 300;
 }
 
-.latest-funding {
+#latest-funding {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -541,22 +568,26 @@ main {
   color: #f42;
 }
 
-.latest-funding h1 {
+/* latest funding section styles  */
+
+#latest-funding h1 {
   font-size: 28px;
   color: #f42;
 }
 
-.latest-funding h1 a,
-.latest-funding a {
+#latest-funding h1 a,
+#latest-funding a {
   color: #f42;
   text-decoration: none;
   margin: 7px 0;
 }
 
-.latest-funding h1 a:hover,
-.latest-funding a:hover {
+#latest-funding h1 a:hover,
+#latest-funding a:hover {
   color: #000;
 }
+
+/* media queries for the table size  */
 
 @media only screen and (min-width: 768px) {
   .header-menu {
@@ -584,7 +615,7 @@ main {
     align-items: center;
   }
 
-  .articles-grid {
+  #articles-grid {
     display: grid;
     grid-template-columns: 64% 34.5%;
     grid-template-rows: 1fr 1fr;
@@ -597,25 +628,25 @@ main {
     height: 97%;
   }
 
-  .latest-funding div {
+  #latest-funding div {
     display: flex;
   }
 
-  .latest-funding div a {
+  #latest-funding div a {
     margin-left: 10px;
     border-right: 1px solid #f42;
     padding-right: 10px;
   }
 
-  .latest-funding div a:first-child {
+  #latest-funding div a:first-child {
     margin-left: 0px;
   }
 
-  .latest-funding div a:last-child {
+  #latest-funding div a:last-child {
     border: none;
   }
 
-  .funding-articles {
+  #funding-articles {
     display: flex;
     flex-direction: row;
     padding-bottom: 100px;
@@ -651,12 +682,15 @@ main {
   .article-div:nth-child(2) h2 {
     font-size: 18px;
   }
+
   .article-div:nth-child(3) h2 {
     font-size: 18px;
   }
+
   #header-upper-side {
     display: flex;
   }
+
   main {
     padding-top: 150px;
   }
