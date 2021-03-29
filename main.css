@@ -146,9 +146,9 @@ main {
 .articles-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    background-color: red;
     width: 100%;
     padding: 0 10px;
+    margin-bottom: 300px;
 }
 
 .article-div {
@@ -157,6 +157,13 @@ main {
     flex-direction: column;
     justify-content: flex-end;
     padding-bottom: 10px;
+    background-image: url("./pictures/articlebackground.jpeg");
+    margin-bottom: 10px;
+}
+
+.funding-article {
+    margin: 20px;
+    margin-bottom: 40px;
 }
 
 .article-div h2 {
@@ -165,4 +172,74 @@ main {
 
 .article-div span {
     font-size: 13px;
+}
+
+.latest-funding a {
+    display: block;
+}
+
+.funding-article-img {
+    display: flex;
+    background-color: #f42;
+    height: 40px;
+}
+
+.funding-ringover {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-left: 6px;
+}
+
+.funding-ringover h4 {
+    color: white;
+    font-size: 18px;
+}
+
+.funding-ringover span {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.funding-ringover p {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.funding-article-img img {
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.funding-article-details {
+    padding-top: 90px;
+}
+
+.funding-article-details a {
+    display: block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.623);
+    font-size: 14px;
+}
+
+.funding-article-details a:hover {
+    color: black;
+}
+
+.funding-border {
+    width: 100%;
+    border-bottom: rgba(0, 0, 0, 0.315) 1px solid;
+    margin: 15px 0px;
+}
+
+.funding-footer-p {
+    text-decoration: none;
+}
+
+.funding-footer-p p {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.623);
+    font-size: 14px;
 }
