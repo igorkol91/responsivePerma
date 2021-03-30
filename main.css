@@ -25,7 +25,7 @@ ul {
 
 /* header style  */
 
-header {
+nav {
   width: 100%;
   position: fixed;
   height: auto;
@@ -447,7 +447,7 @@ main {
 }
 
 .article-timing p {
-  visibility: hidden !important;
+  visibility: hidden;
 }
 
 .article-author {
@@ -684,7 +684,7 @@ main {
     display: none;
   }
 
-  header {
+  nav {
     background-color: white;
   }
 
@@ -744,7 +744,7 @@ main {
   }
 
   .article-timing p {
-    visibility: visible !important;
+    visibility: visible;
   }
 }
 
