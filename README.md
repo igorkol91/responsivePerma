@@ -21,7 +21,6 @@ https://igorkol91.github.io/responsivePerma/
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -38,16 +37,24 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+:bust_in_silhouette: **Author1**
 
+<<<<<<< HEAD
 - GitHub:  igorkol91 
+=======
+- GitHub: igorkol91
+>>>>>>> eb239a2fb424beaf7c61e846307af0e4d2669c2e
 - Twitter: @Destro49536502
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+:bust_in_silhouette: **Author2**
 
 - GitHub: barackm
+<<<<<<< HEAD
 - Twitter: https://twitter.com/BarackMukelenga 
+=======
+- Twitter: https://twitter.com/BarackMukelenga
+>>>>>>> eb239a2fb424beaf7c61e846307af0e4d2669c2e
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-## 🤝 Contributing
+## :handshake: Contributing
