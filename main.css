@@ -259,6 +259,7 @@ header {
   position: absolute;
   top: 20px;
   left: 20px;
+  display: none;
 }
 
 .left-img {
@@ -443,6 +444,10 @@ main {
   top: 20px;
   right: 20px;
   color: #fff;
+}
+
+.article-timing p {
+  visibility: hidden !important;
 }
 
 .article-author {
@@ -732,6 +737,14 @@ main {
 
   .article-logo-container {
     display: none;
+  }
+
+  .article-logo-container img {
+    display: block;
+  }
+
+  .article-timing p {
+    visibility: visible !important;
   }
 }
 
