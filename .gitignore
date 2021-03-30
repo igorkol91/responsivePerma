@@ -30,6 +30,10 @@ DerivedData/
 *.dSYM.zip
 *.dSYM
 
+.DS_Store/
+icons/.DS_Store/
+node_modules/
+.vscode/
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
