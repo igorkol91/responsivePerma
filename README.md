@@ -4,9 +4,9 @@
 
 > This project shows different ways that can help us make our website reponsive to all the screen sizes.
 
-![screenshot](./screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/73760803/112973309-779ba680-9151-11eb-923b-0876fa566696.png)
 
-Additional description about the project and its features.
+Finished the first milestone for the responsive project of week 2. It is made so that it looks good on mobile, tablet and lastly the Desktop version.
 
 ## Built With
 
@@ -15,13 +15,12 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+https://igorkol91.github.io/responsivePerma/
 
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -38,16 +37,16 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+:bust_in_silhouette: **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- GitHub: igorkol91
+- Twitter: @Destro49536502
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+:bust_in_silhouette: **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- GitHub: barackm
+- Twitter: https://twitter.com/BarackMukelenga
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-## 🤝 Contributing
+## :handshake: Contributing
