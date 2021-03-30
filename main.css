@@ -22,7 +22,7 @@
  }
  /* header style  */
  
- header {
+ nav {
      width: 100%;
      position: fixed;
      height: auto;
@@ -883,7 +883,7 @@
      .sublinks ul li {
          display: none;
      }
-     header {
+     nav {
          background-color: white;
      }
      .article-div h2 {
